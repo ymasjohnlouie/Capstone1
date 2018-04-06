@@ -1,0 +1,25 @@
+#column {
+	border: 5px solid black;
+	background-color: skyblue;
+}
+
+#parentCol {
+	background-color: red;
+}
+
+#nestedCol {
+	background-color: yellow;
+}
+
+#column1 {
+	border: 5px solid black;
+}
+
+#menuD {
+	background-color: red;
+}
+
+img {
+	-webkit-box-reflect: below 0px
+	-webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+}
