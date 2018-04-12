@@ -9,9 +9,14 @@
 #con1,
 #con2 {
 	text-align: center;
-	background: linear-gradient(to bottom left, #00CC00, white);
+	background: linear-gradient(to left, #00CC00, white);
 }
 
 .part2 {
-	background: linear-gradient(to bottom left, #00CC00, white);
+	background: linear-gradient(to left, #00CC00, white);
+}
+
+.carousel-inner {
+	width: 200px;
+	height: 600px;
 }

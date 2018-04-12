@@ -38,18 +38,21 @@ p {
 #cont1,
 #cont2,
 .cont3 {
-	background: linear-gradient(to right, rgba(0,204,255,0), rgba(0,204,255,1));
+	background: linear-gradient(to left, rgba(0,204,255,0), rgba(0,204,255,1));
 	text-align: center;
 }
 
 /*media queries must be at the bottom part of css*/
 
-#cont4 {
+#cont4,
+#cont5 {
 	background: linear-gradient(to left, rgba(0,204,255,0), rgba(0,204,255,1));
+	
 }
 
 #social {
-	background: linear-gradient(to top, rgba(0,204,255,0), rgba(0,204,255,1));
+	background: linear-gradient(to left, rgba(0,204,255,0), rgba(0,204,255,1));
+
 }
 
 h5 {
