@@ -8,11 +8,14 @@
 
 #con1 {
 	text-align: center;
-	background: linear-gradient(to right, #0066FF, white);
 }
 
 #con2 {
-	background: linear-gradient(to right, #0066FF, white);
+	margin-top: -20px;
+}
+
+#con3 {
+	padding-bottom: 10px;
 }
 
 #title {
@@ -23,15 +26,16 @@ img {
 	box-shadow: 5px 5px 5px grey;
 }
 
-#con3 {
-	background: linear-gradient(to right, #0066FF, white);
-}
-
 #list {
 	padding: 10px;
 }
 
 h2 {
+	text-align: center;
 	-webkit-box-reflect: below 0px
 	-webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+}
+
+body {
+	background: linear-gradient(to right, #0066FF, white);
 }
