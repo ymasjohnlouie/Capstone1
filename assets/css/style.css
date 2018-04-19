@@ -3,21 +3,67 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Exo 2', sans-serif;
 }
 
-.con1 {
-	background-image: url(http://windowseat.ph/wp-content/uploads/2017/05/Poblacion-Makati-Header-1024x683.jpg);
-	width: 1024px;
-	height: 683px;
-	margin-left: 120px;
+img {
+	width: 100%;
+	height: 100%;
+	-webkit-box-reflect: below 0px
+	-webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
 }
 
-h1,
-h2 {
+p {
+	color: black;
+}
+
+.fb {
+	color: #1A53FF;
+}
+
+.twt {
+	color: #1AD1FF;
+}
+
+.inst {
+	color: #CC33FF;
+}
+
+.media1 {
+	display: inline-block;
+	-webkit-box-reflect: below 0px
+	-webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+}
+
+#cont1,
+#cont2,
+.cont3 {
+	background: linear-gradient(to left, rgba(0,204,255,0), rgba(0,204,255,1));
 	text-align: center;
 }
 
-.iframe1 {
+/*media queries must be at the bottom part of css*/
+
+#cont4,
+#cont5 {
+	background: linear-gradient(to left, rgba(0,204,255,0), rgba(0,204,255,1));
+	
+}
+
+#social {
+	background: linear-gradient(to left, rgba(0,204,255,0), rgba(0,204,255,1));
+
+}
+
+h5 {
+	text-align: center;
+}
+
+button {
 	-webkit-box-reflect: below 0px
 	-webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+}
+
+h1 {
+	text-transform: uppercase;
 }

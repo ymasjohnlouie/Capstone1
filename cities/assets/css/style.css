@@ -25,6 +25,10 @@ img {
 	box-shadow: 5px 5px 5px grey;
 }
 
+h1 {
+	text-transform: uppercase;
+}
+
 body {
 	background: linear-gradient(to right, #0066FF, white);
 }

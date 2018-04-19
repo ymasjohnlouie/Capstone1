@@ -30,6 +30,10 @@ img {
 	padding: 10px;
 }
 
+h1 {
+	text-transform: uppercase;
+}
+
 h2 {
 	text-align: center;
 	-webkit-box-reflect: below 0px
